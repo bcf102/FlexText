@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexText">
+        <attr name="textSize" format="dimension" />
+        <attr name="prefixSize" format="dimension" />
+        <attr name="suffixSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="prefixText" format="string" />
+        <attr name="suffixText" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="prefixColor" format="color" />
+        <attr name="suffixColor" format="color" />
+        <attr name="isCash" format="boolean"/>
+    </declare-styleable>
+</resources>

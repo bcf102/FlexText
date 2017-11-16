@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.bcf.flex.text.FlexText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:isCash="true"
+            app:prefixText="\u00a5"
+            app:text="25"
+            app:textSize="18dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付"/>
+    </LinearLayout>
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:prefixColor="@color/colorPrimary"
+        app:suffixColor="@color/colorPrimary"
+        app:text="欢迎光临|小猪佩奇|的魔幻城堡"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:prefixColor="@color/colorPrimary"
+        app:prefixText="这里是"
+        app:suffixColor="@color/colorPrimary"
+        app:suffixText="的家"
+        app:text="小兔瑞贝卡"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:prefixColor="@color/colorPrimary"
+        app:text="小狗丹尼|的小屋"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isCash="true"
+        app:prefixColor="@color/colorPrimary"
+        app:prefixText="这个礼物价值"
+        app:suffixColor="@color/colorPrimaryDark"
+        app:suffixText="元"
+        app:text="15"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isCash="true"
+        app:prefixColor="@color/colorPrimary"
+        app:prefixText="\u00a5"
+        app:suffixColor="@color/colorPrimaryDark"
+        app:suffixText="元"
+        app:text="22"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:prefixColor="@color/colorPrimaryDark"
+        app:isCash="true"
+        app:text="188"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+
+    <com.bcf.flex.text.FlexText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isCash="true"
+        app:text="188"
+        app:textColor="@color/colorAccent"
+        app:textSize="18dp" />
+</LinearLayout>
